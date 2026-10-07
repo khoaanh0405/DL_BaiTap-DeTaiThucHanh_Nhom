@@ -1,0 +1,7 @@
+model,cv_rmse,cv_std
+Ensemble ENet/Ridge/GBR/HGB,0.125858957,0.034794768
+Ensemble 0.5 ENet + 0.5 GBR,0.126671264,0.036807616
+Gradient Boosting (tuned),0.126926808,0.024123707
+HistGB (tuned),0.129928159,0.021983171
+Ridge (tuned),0.138719799,0.04335488
+ElasticNet (tuned),0.141208856,0.05012697
