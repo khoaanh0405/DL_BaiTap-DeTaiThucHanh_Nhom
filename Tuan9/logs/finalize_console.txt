@@ -1,0 +1,53 @@
+FINAL SUMMARY
+{
+  "selection_rule": "Minimum mean validation MSE among B and C trials; tie-break by fewer parameters.",
+  "selected_group": "C",
+  "selected_factor_value": 4,
+  "hidden_dims": [
+    10,
+    10,
+    10,
+    10
+  ],
+  "parameter_count": 371,
+  "selection_mean_validation_mse": 6.9832007866352785e-06,
+  "selection_std_validation_mse": 1.556754835950562e-06,
+  "final_refit_seed": 999,
+  "final_best_epoch": 208,
+  "final_train_mse": 8.008014992810785e-06,
+  "final_validation_mse": 7.676932029426098e-06,
+  "test_mse": 8.45221529743867e-06,
+  "test_mae": 0.0022766704205423594,
+  "test_rmse": 0.0029072693885222726,
+  "final_train_seconds": 4.386952642000097,
+  "device": "cpu",
+  "n_train": 2000,
+  "n_validation": 500,
+  "n_test": 100,
+  "experiment_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "covariance": [
+    [
+      0.3,
+      -0.5
+    ],
+    [
+      -0.5,
+      2.0
+    ]
+  ],
+  "mean": [
+    0.0,
+    0.0
+  ],
+  "optimizer": "Adam",
+  "learning_rate": 0.02,
+  "batch_size": 256,
+  "epochs_max": 400,
+  "activation": "Tanh hidden layers + linear output",
+  "search_early_stopping_patience": 20,
+  "final_refit_patience": 40
+}
